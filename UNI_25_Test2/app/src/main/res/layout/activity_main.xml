@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.unieibar.uni_25_test2.MainActivity">
+
+    <TextView
+        android:id="@+id/lbl_question"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/orangejuice2"
+        android:gravity="center"
+        android:text="@string/question1"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/rg_options1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lbl_question" >
+
+        <RadioButton
+            android:id="@+id/rg1_op1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/q1_op1" />
+
+        <RadioButton
+            android:id="@+id/rg1_op2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/q1_op2" />
+
+        <RadioButton
+            android:id="@+id/rg1_op3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/q1_op3" />
+
+        <RadioButton
+            android:id="@+id/rg1_op4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/q1_op4" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/lbl_choice1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/orangejuice2"
+        android:gravity="center"
+        android:text="..."
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rg_options1" />
+
+    <CheckBox
+        android:id="@+id/cb1_football"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/cb1_football"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lbl_choice1" />
+</androidx.constraintlayout.widget.ConstraintLayout>

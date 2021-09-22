@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">UNI_25_RadioButtono_CheckBox</string>
+    <string name="question1">¿Cuál es tu equipo de fútbol favorito?</string>
+    <string name="q1_op2">Real Sociedad</string>
+    <string name="q1_op3">Athletic</string>
+    <string name="q1_op4">No está en la lista...</string>
+    <string name="cb1_football">Me gusta el fútbol</string>
+</resources>

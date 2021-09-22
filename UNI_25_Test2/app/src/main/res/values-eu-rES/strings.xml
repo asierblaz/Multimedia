@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">UNI_25_RadioButtono_CheckBox</string>
+    <string name="question1">Zein da zure futbol talderik gogokoena?</string>
+    <string name="q1_op2">Erreala</string>
+    <string name="q1_op3">Athletic</string>
+    <string name="q1_op4">Ez dago zerrendan...</string>
+    <string name="cb1_football">Gustoko dut futbola</string>
+</resources>

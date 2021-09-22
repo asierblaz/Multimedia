@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">UNI_25_RadioButtono_CheckBox</string>
+    <string name="question1">Which is your favorite football team?</string>
+    <string name="q1_op1" translatable="false">Eibar</string>
+    <string name="q1_op2">Real Sociedad</string>
+    <string name="q1_op3">Athletic Club Bilbao</string>
+    <string name="q1_op4">Not in the list...</string>
+    <string name="cb1_football">I like football</string>
+</resources>
