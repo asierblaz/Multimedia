@@ -4,9 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.util.Log;
+import android.view.KeyEvent;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CompoundButton;
+import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Switch;
@@ -54,6 +56,17 @@ public class MainActivity extends AppCompatActivity {
 
         boton1.setOnClickListener(this::cambiarValorBot2);
         boton2.setOnClickListener(this::cambiarValorBot1);
+
+        ((EditText)findViewById(R.id.editPassword)).setOnKeyListener(new View.OnKeyListener() {
+            @Override
+            public boolean onKey(View view, int i, KeyEvent keyEvent) {
+                Log.d("Onkey",view.toString());
+                Log.d("Onkey",i+"");
+                Log.d("Onkey",keyEvent+"");
+
+                return false;
+            }
+        });
     }
 
     public void gehitu(View view) {

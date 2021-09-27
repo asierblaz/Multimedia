@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">UNI_27_Test3</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="idtelefono">Icono de teléfono</string>
+    <string name="llamar_ww">Pulsa para llamar a Walter White</string>
+
+</resources>
